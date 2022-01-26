@@ -1,7 +1,11 @@
-﻿public class Program
+﻿namespace ProGitForProgrammers
 {
-    public void PrintHello()
+    class Program
     {
-        Console.WriteLine("Hello World!");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+           Console.WriteLine("I just added this in Visual Studio");
+        }
     }
 }
